@@ -1,6 +1,12 @@
 <nav class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container"><!-- <<< verwijder als je navigatie over de ganse breedte wenst -->
-        <a class="navbar-brand" href="#">MyClient</a>
+        <a class="navbar-brand andro_logo" href="{{site.baseurl}}/index">
+            <img src="{{site.baseurl}}/images/logo_nav/logo_andromeda.png" alt="logo andromeda">
+        </a>
+        <a class="navbar-brand andro_logo-2" href="{{site.baseurl}}/index">
+         <img src="{{ site.baseurl }}/images/icon_mobile.png" alt="logo andromeda">
+            </a>
+        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -19,7 +25,7 @@
                         {%- include navigation-from-folder.html nav-item=nav-item %}
                 </li>
             {%- else %}
-            <li class="nav-item {{ item_classes }}">
+            <li class="nav-item active{{ item_classes }}">
                     <a class="nav-link" href="{{ nav-item.permalink | relative_url }}" title="{{ nav-item.name }}">
                         {{ nav-item.name }}
                     </a>

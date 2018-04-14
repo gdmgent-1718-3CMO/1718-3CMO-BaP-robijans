@@ -3,3 +3,440 @@
 @charset "UTF-8";
 
 @import "main";
+
+a:-webkit-any-link:hover{
+    text-decoration: none;
+   
+}
+a{
+    color:$clientcolor-3;
+}
+a:hover{
+    color: $clientcolor-2;
+}
+title{
+    background-image: url('{{stite.baseurl}}/images/icon29.png')
+}
+
+
+
+
+
+.navbar-nav{
+    padding-left: 30px;
+    padding-top: 45px;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link{
+    color: $clientcolor-1;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: $clientcolor-2;
+}
+
+
+
+
+
+
+.background{
+    background-size: cover;
+    background-position: bottom;
+}
+
+.display-3{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+
+
+.titel_homepage{
+    position: absolute;
+    top: 100px;
+    left: 180px;
+}
+
+p{
+    font-family: $clientfont-family-base;
+    color: $color-black;
+    padding-left: 5px;
+  
+    line-height: 28px;
+}
+h1{
+    font-weight: 200;
+    color:$clientcolor-2;
+    margin-top: 25px;    
+}
+h2{
+    font-weight: 200;
+    color: $clientcolor-2;
+    padding-top: 50px;
+}
+.footer-text{
+    font-family: $myfont-family-base;
+    color:$color-white;
+    font-weight: 200;
+    
+}
+footer{
+    background-color: $clientcolor-1;
+    padding-bottom: 50px;
+    padding-top: 20px;
+
+
+}
+.leeg{
+    height:400px;
+    visibility:hidden;
+}
+.andromeda{
+    padding-top: 8px;
+}
+#toc{
+    visibility: hidden;
+    width: 450px;
+    
+}
+.figure{
+    padding-left: 10px;
+
+    padding-right: 10px; 
+    
+}
+
+.figure-caption{
+    font-family: $myfont-family-base;
+    color:$clientcolor-1;
+    font-weight: 200;
+    font-size: 16px;
+    font-style: italic;
+  
+}
+.caption-left{
+    padding-left: 25px;
+}
+.break{
+    visibility: hidden;
+}
+
+.nooit{
+    color: red;
+}
+.rij-1-footer{
+    margin-top:30px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.rij-1-logo{
+        margin-top: 50px;
+    }
+.andro_logo{
+    visibility: hidden;
+    margin-top: -150px;
+}
+.andro_logo-2{
+    margin-top: 10px;
+}
+   
+ .rij-1-logo{
+        margin-top: -175px;
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+        .background{
+        background-size: cover;
+        background-position: bottom;
+        }
+
+        .display-3{
+            font-size: 3rem;
+            font-weight: 700;
+            color: white;
+        }
+
+        .wrapper_homepage{
+            position: relative;
+        }
+
+        .titel_homepage{
+    position: absolute;
+    top: 155px;
+    left: 180px;
+}
+
+
+
+
+}
+
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    
+    
+    
+        .navbar-nav{
+            margin-left: -40px;
+        padding-left: 0px;
+        padding-top: 70px;
+            }
+
+
+
+        .navbar-light .navbar-nav .nav-link{
+            color: $clientcolor-1;
+        }
+        .navbar-light .navbar-nav .nav-link:hover{
+            color: $clientcolor-2;
+        }
+    
+
+          .background{
+        background-size: cover;
+        background-position: bottom;
+        }
+
+        .display-3{
+            font-size: 2,5rem;
+            font-weight: 700;
+            color: white;
+        }
+
+        .wrapper_homepage{
+            position: relative;
+        }
+
+        .titel_homepage{
+    position: absolute;
+    top: 155px;
+    left: 400px;
+}
+
+    .rij-logo{
+        margin-left:50px;
+    }
+    .rij-1-logo{
+        margin-top: 20px;
+    }
+    
+    .andro_logo{
+    visibility: visible;
+    margin-top: 10px;
+}
+.andro_logo-2{
+    visibility:hidden;
+    margin-top: -70px;
+}
+    .figure{
+        margin-left: 30px;
+    }
+    .leeg{
+        height: 400px;
+        visibility: hidden;
+    }
+  
+    
+
+
+}
+
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    
+            /*homepage css*/
+
+         .navbar-nav{
+        padding-left: 200px;
+        padding-top: 45px;
+            }
+
+
+
+        .navbar-light .navbar-nav .nav-link{
+            color: $clientcolor-1;
+        }
+        .navbar-light .navbar-nav .nav-link:hover{
+            color: $clientcolor-2;
+        }
+    
+
+          .background{
+        background-size: cover;
+        background-position: bottom;
+        }
+
+        .display-3{
+            font-size: 3rem;
+            font-weight: 700;
+            color: white;
+        }
+
+        .wrapper_homepage{
+            position: relative;
+        }
+
+        .background{
+            background-size: cover;
+            background-position: bottom;
+        }
+
+        .display-3{
+            font-weight: 700;
+            color: white;
+        }
+
+        .wrapper_homepage{
+            position: relative;
+        }
+
+        .titel_homepage{
+            position: absolute;
+            top: 120px;
+            left: 85px;
+        }
+    #toc{
+        visibility:hidden;
+            margin-top: 60px;
+        color: $clientcolor-3;
+        line-height: 35px;
+        
+    }
+    .figure{
+        margin-left: 75px;
+    }
+    .leeg{
+        height: 500px;
+    }
+}
+
+
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  
+        
+         /*homepage css*/
+    
+         .navbar-nav{
+        padding-left: 450px;
+        padding-top: 45px;
+            }
+
+
+
+        .navbar-light .navbar-nav .nav-link{
+            color: $clientcolor-1;
+        }
+        .navbar-light .navbar-nav .nav-link:hover{
+            color: $clientcolor-2;
+        }
+    
+
+          .background{
+        background-size: cover;
+        background-position: bottom;
+        }
+
+        .display-3{
+            font-size: 4rem;
+            font-weight: 700;
+            color: white;
+        }
+
+        .wrapper_homepage{
+            position: relative;
+        }
+
+
+        .background{
+            background-size: cover;
+            background-position: bottom;
+        }
+
+        .display-3{
+            font-weight: 700;
+            color: white;
+        }
+
+        .wrapper_homepage{
+            position: relative;
+        }
+
+        .titel_homepage{
+            position: absolute;
+            top: 150px;
+            left: 1175px;
+        }
+    
+    #toc{
+        visibility: visible;
+    }
+    .figure{
+        margin-top: 35px;
+
+    }
+    .break{
+        visibility: visible;
+    }
+  
+    ol{
+        padding-top: 200px;
+    }
+        
+    
+
+
+    
+    
+    .logo_footer{
+        margin-left: 445px;
+    }
+    .rij-1-footer{
+        margin-top: 50px;
+        padding-bottom: 30px;
+    }
+    .rij-2-home{
+        margin-top: -175px;
+    }
+    
+    .rij-1-logo{
+        margin-top: 25px;
+    }
+   
+       
+    .rij-logo{
+        margin-top: 35px;
+        padding-left: 200px;
+    }
+  
+
+
+
+}

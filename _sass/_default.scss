@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-weight: $font-weight-light;
     font-size: 4rem;
-    color: $color-grey-2;
+    color: $clientcolor-1;
 }
 h2 {
     font-weight: $font-weight-light;
@@ -28,21 +28,7 @@ h3, h4, h5, h6 {
     font-size: 1rem;
     margin: 2rem 0 0;
 }
-a {
-    text-decoration: none;
-    color: $body-link;
-    border-bottom: dotted 1px $body-link;
-    &:hover{
-        color: $body-link;
-        text-decoration: none;
-        border-bottom: solid 1px $body-link;
-    }
-    &:active{
-        background-color: $body-link;
-        color: $color-white;
-    }
-    &:focus{}
-}
+
 blockquote {
     padding-left: 24px;
     border-left: 2px solid $mycolor-5;
@@ -58,7 +44,7 @@ main ul {
     text-indent: -25px;
     &:before {
         content:'\2022';
-        color: $mycolor-5;
+        color: $clientcolor-3;
         margin-right: 18px;
     }    
   }
@@ -72,18 +58,20 @@ main ol {
     counter-reset: i 0;
     li {
       padding-left: 25px;
+        color:$clientcolor-1;
       text-indent: -25px;
-      margin-bottom: 0.5rem;
+      margin-bottom: 1rem;
       &:before {
         counter-increment: i;
         content: counter(i);    
         padding: 3px 6px;
-        margin-right: 5px;
-        border-radius: 5px;
-        background-color: $mycolor-5;
-        color: $color-white;
+        margin-right: 10px;
+        border-radius:100px 100px 0px 100px; 
+          border:2px solid $clientcolor-3;
+        background-color: $mycolor-1;
+        color: $clientcolor-3;
         font-family: $myfont-family-title;
-        font-weight: $font-weight-bold;
+        font-weight: 200;
       }    
     }
   }
@@ -91,8 +79,16 @@ main ol {
 //forms 
 button, a.btn {
     
-    &:hover{}
-    &:active{}
+    &:hover{
+        background-color: $clientcolor-2;
+        color: $clientcolor-1;
+        border: 2px solid $clientcolor-1;
+    }
+    &:active{
+        background-color: $clientcolor-3;
+        color:$clientcolor-1;
+        border: 2px solid $clientcolor-1;
+    }
     &:focus{}
 }
 input[type=text], textarea {
