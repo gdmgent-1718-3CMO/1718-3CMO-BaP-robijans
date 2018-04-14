@@ -77,6 +77,21 @@ h2{
     color: $clientcolor-2;
     padding-top: 50px;
 }
+
+h3{
+    color:$clientcolor-2;
+    font-weight:200;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+ol{
+    
+    padding-top: 25px;
+}
+ol>li{
+    padding-left: 25px;
+}
 .footer-text{
     font-family: $myfont-family-base;
     color:$color-white;
@@ -100,10 +115,11 @@ footer{
 #toc{
     visibility: hidden;
     width: 450px;
+    margin-top: -300px;
     
 }
 .figure{
-    padding-left: 10px;
+    padding-left: 25px;
 
     padding-right: 10px; 
     
@@ -145,7 +161,7 @@ footer{
 }
    
  .rij-1-logo{
-        margin-top: -175px;
+        margin-top: 0px;
     }
    
 
@@ -254,6 +270,7 @@ footer{
 }
     .figure{
         margin-left: 30px;
+        margin: 10px;
     }
     .leeg{
         height: 400px;
@@ -262,6 +279,12 @@ footer{
   
     
 
+h3{
+    color:$clientcolor-2;
+    font-weight:200;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
 
 }
 
@@ -334,6 +357,13 @@ footer{
     .leeg{
         height: 500px;
     }
+    
+h3{
+    color:$clientcolor-2;
+    font-weight:200;
+    padding-left: 90px;
+    padding-bottom: 10px;
+}
 }
 
 
@@ -345,7 +375,7 @@ footer{
          /*homepage css*/
     
          .navbar-nav{
-        padding-left: 450px;
+        padding-left: 430px;
         padding-top: 45px;
             }
 
@@ -392,11 +422,13 @@ footer{
         .titel_homepage{
             position: absolute;
             top: 150px;
-            left: 1175px;
+            left: 1210px;
         }
     
     #toc{
         visibility: visible;
+        font-size: 14px;
+       
     }
     .figure{
         margin-top: 35px;
@@ -408,6 +440,9 @@ footer{
   
     ol{
         padding-top: 200px;
+    }
+    li{
+        padding-left: 0px;
     }
         
     
@@ -433,9 +468,15 @@ footer{
        
     .rij-logo{
         margin-top: 35px;
-        padding-left: 200px;
+        padding-left: 150px;
     }
   
+h3{
+    color:$clientcolor-2;
+    font-weight:200;
+    padding-left: 100px;
+    padding-bottom: 10px;
+}
 
 
 
