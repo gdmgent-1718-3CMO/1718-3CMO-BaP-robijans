@@ -165,7 +165,33 @@ footer{
     }
    
 
+.logo_foot{
+    max-width: 175px;
+    align-items: baseline;
+    padding:10px;
+}
+.andromeda{
+    padding-top: 40px;
+}
 
+.btn.download{
+    background-color: $clientcolor-1;
+    color: $clientcolor-3;
+    border: 2px solid $clientcolor-3;
+    border-radius: 25px,25px,25px,25px;
+    
+    
+}
+.btn.download:hover{
+    background-color: $clientcolor-2;
+    color: $clientcolor-1;
+    border: 2px solid $clientcolor-1;
+     border-radius: 25px,25px,25px,25px;
+}
+.knop{
+    margin-left: 28px;
+    margin-bottom: 25px;
+}
 
 
 
@@ -285,6 +311,10 @@ h3{
     padding-left: 60px;
     padding-bottom: 10px;
 }
+    .knop{
+    margin-left: 35px;
+    margin-bottom: 25px;
+}
 
 }
 
@@ -364,6 +394,11 @@ h3{
     padding-left: 90px;
     padding-bottom: 10px;
 }
+    
+   
+    
+    
+    
 }
 
 
@@ -476,6 +511,10 @@ h3{
     font-weight:200;
     padding-left: 100px;
     padding-bottom: 10px;
+}
+    .knop{
+    margin-left: 98px;
+    margin-bottom: 25px;
 }
 
 
